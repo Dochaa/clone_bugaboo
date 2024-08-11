@@ -1,1 +1,1 @@
-Bugaboo clone layout
+Bugaboo clone 
