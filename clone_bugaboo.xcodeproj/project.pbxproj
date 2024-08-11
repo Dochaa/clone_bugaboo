@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D9F0CFD2C66691E00BE410A /* clone_bugabooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0CFC2C66691E00BE410A /* clone_bugabooApp.swift */; };
+		5D9F0CFF2C66691E00BE410A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0CFE2C66691E00BE410A /* ContentView.swift */; };
+		5D9F0D012C66692000BE410A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9F0D002C66692000BE410A /* Assets.xcassets */; };
+		5D9F0D042C66692000BE410A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9F0D032C66692000BE410A /* Preview Assets.xcassets */; };
+		5D9F0D062C66692000BE410A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D052C66692000BE410A /* Persistence.swift */; };
+		5D9F0D092C66692000BE410A /* clone_bugaboo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D072C66692000BE410A /* clone_bugaboo.xcdatamodeld */; };
+		5D9F0D132C66692000BE410A /* clone_bugabooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D122C66692000BE410A /* clone_bugabooTests.swift */; };
+		5D9F0D1D2C66692000BE410A /* clone_bugabooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D1C2C66692000BE410A /* clone_bugabooUITests.swift */; };
+		5D9F0D1F2C66692000BE410A /* clone_bugabooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D1E2C66692000BE410A /* clone_bugabooUITestsLaunchTests.swift */; };
+		5D9F0D2C2C666A8100BE410A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D2B2C666A8100BE410A /* HomeView.swift */; };
+		5D9F0D2E2C666AED00BE410A /* DramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D2D2C666AED00BE410A /* DramaView.swift */; };
+		5D9F0D302C666B0900BE410A /* BugabooOriginalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D2F2C666B0900BE410A /* BugabooOriginalView.swift */; };
+		5D9F0D322C666B2C00BE410A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D312C666B2C00BE410A /* SearchView.swift */; };
+		5D9F0D342C666C2800BE410A /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D332C666C2800BE410A /* CarouselView.swift */; };
+		5D9F0D362C666C4900BE410A /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D352C666C4900BE410A /* SectionView.swift */; };
+		5D9F0D392C66736100BE410A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D382C66736100BE410A /* MenuView.swift */; };
+		5D9F0D3B2C6705F900BE410A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D3A2C6705F900BE410A /* HeaderView.swift */; };
+		5D9F0D402C67B7D400BE410A /* MovieTitleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D3F2C67B7D300BE410A /* MovieTitleResponse.swift */; };
+		5D9F0D432C67B89800BE410A /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D422C67B89800BE410A /* SearchViewModel.swift */; };
+		5D9F0D462C67B8ED00BE410A /* SearchManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D452C67B8ED00BE410A /* SearchManger.swift */; };
+		5D9F0D492C67B95400BE410A /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D482C67B95400BE410A /* SearchService.swift */; };
+		5D9F0D4C2C67B9A300BE410A /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D4B2C67B9A300BE410A /* ServiceManager.swift */; };
+		5D9F0D4E2C67B9B900BE410A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D4D2C67B9B900BE410A /* Constant.swift */; };
+		5D9F0D502C67B9D400BE410A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D4F2C67B9D400BE410A /* NetworkManager.swift */; };
+		5D9F0D532C67BF4800BE410A /* DramaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D522C67BF4800BE410A /* DramaModel.swift */; };
+		5D9F0D552C67D2A700BE410A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D542C67D2A700BE410A /* SettingsView.swift */; };
+		5D9F0D592C67D86300BE410A /* SeriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D582C67D86300BE410A /* SeriesView.swift */; };
+		5D9F0D5D2C68A24300BE410A /* DramaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D5C2C68A24300BE410A /* DramaViewModel.swift */; };
+		5D9F0D5F2C68A31A00BE410A /* DramaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D5E2C68A31A00BE410A /* DramaManager.swift */; };
+		5D9F0D622C68AA9300BE410A /* DramaDetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D612C68AA9300BE410A /* DramaDetailContentView.swift */; };
+		5D9F0D652C68ADC400BE410A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9F0D642C68ADC400BE410A /* Extensions.swift */; };
+		5D9F0D672C68F39400BE410A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9F0D662C68F39400BE410A /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D9F0D0F2C66692000BE410A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D9F0CF12C66691E00BE410A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D9F0CF82C66691E00BE410A;
+			remoteInfo = clone_bugaboo;
+		};
+		5D9F0D192C66692000BE410A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D9F0CF12C66691E00BE410A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D9F0CF82C66691E00BE410A;
+			remoteInfo = clone_bugaboo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D9F0CF92C66691E00BE410A /* clone_bugaboo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clone_bugaboo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9F0CFC2C66691E00BE410A /* clone_bugabooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clone_bugabooApp.swift; sourceTree = "<group>"; };
+		5D9F0CFE2C66691E00BE410A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D9F0D002C66692000BE410A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D9F0D032C66692000BE410A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D9F0D052C66692000BE410A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5D9F0D082C66692000BE410A /* clone_bugaboo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = clone_bugaboo.xcdatamodel; sourceTree = "<group>"; };
+		5D9F0D0E2C66692000BE410A /* clone_bugabooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clone_bugabooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9F0D122C66692000BE410A /* clone_bugabooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clone_bugabooTests.swift; sourceTree = "<group>"; };
+		5D9F0D182C66692000BE410A /* clone_bugabooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clone_bugabooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9F0D1C2C66692000BE410A /* clone_bugabooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clone_bugabooUITests.swift; sourceTree = "<group>"; };
+		5D9F0D1E2C66692000BE410A /* clone_bugabooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clone_bugabooUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D9F0D2B2C666A8100BE410A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5D9F0D2D2C666AED00BE410A /* DramaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaView.swift; sourceTree = "<group>"; };
+		5D9F0D2F2C666B0900BE410A /* BugabooOriginalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugabooOriginalView.swift; sourceTree = "<group>"; };
+		5D9F0D312C666B2C00BE410A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		5D9F0D332C666C2800BE410A /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		5D9F0D352C666C4900BE410A /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		5D9F0D382C66736100BE410A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		5D9F0D3A2C6705F900BE410A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5D9F0D3F2C67B7D300BE410A /* MovieTitleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTitleResponse.swift; sourceTree = "<group>"; };
+		5D9F0D422C67B89800BE410A /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		5D9F0D452C67B8ED00BE410A /* SearchManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManger.swift; sourceTree = "<group>"; };
+		5D9F0D482C67B95400BE410A /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		5D9F0D4B2C67B9A300BE410A /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		5D9F0D4D2C67B9B900BE410A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5D9F0D4F2C67B9D400BE410A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5D9F0D522C67BF4800BE410A /* DramaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaModel.swift; sourceTree = "<group>"; };
+		5D9F0D542C67D2A700BE410A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5D9F0D582C67D86300BE410A /* SeriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesView.swift; sourceTree = "<group>"; };
+		5D9F0D5C2C68A24300BE410A /* DramaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaViewModel.swift; sourceTree = "<group>"; };
+		5D9F0D5E2C68A31A00BE410A /* DramaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaManager.swift; sourceTree = "<group>"; };
+		5D9F0D612C68AA9300BE410A /* DramaDetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaDetailContentView.swift; sourceTree = "<group>"; };
+		5D9F0D642C68ADC400BE410A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5D9F0D662C68F39400BE410A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D9F0CF62C66691E00BE410A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9F0D0B2C66692000BE410A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9F0D152C66692000BE410A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D9F0CF02C66691E00BE410A = {
+			isa = PBXGroup;
+			children = (
+				5D9F0CFB2C66691E00BE410A /* clone_bugaboo */,
+				5D9F0D112C66692000BE410A /* clone_bugabooTests */,
+				5D9F0D1B2C66692000BE410A /* clone_bugabooUITests */,
+				5D9F0CFA2C66691E00BE410A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D9F0CFA2C66691E00BE410A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0CF92C66691E00BE410A /* clone_bugaboo.app */,
+				5D9F0D0E2C66692000BE410A /* clone_bugabooTests.xctest */,
+				5D9F0D182C66692000BE410A /* clone_bugabooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D9F0CFB2C66691E00BE410A /* clone_bugaboo */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D632C68ADB200BE410A /* Resources */,
+				5D9F0CFC2C66691E00BE410A /* clone_bugabooApp.swift */,
+				5D9F0CFE2C66691E00BE410A /* ContentView.swift */,
+				5D9F0D3A2C6705F900BE410A /* HeaderView.swift */,
+				5D9F0D312C666B2C00BE410A /* SearchView.swift */,
+				5D9F0D512C67BACD00BE410A /* UI */,
+				5D9F0D4A2C67B98B00BE410A /* Utilites */,
+				5D9F0D472C67B90900BE410A /* Service */,
+				5D9F0D442C67B8D700BE410A /* Manager */,
+				5D9F0D412C67B86F00BE410A /* ViewModel */,
+				5D9F0D3E2C67B78600BE410A /* Model */,
+				5D9F0D602C68AA6C00BE410A /* General */,
+				5D9F0D002C66692000BE410A /* Assets.xcassets */,
+				5D9F0D052C66692000BE410A /* Persistence.swift */,
+				5D9F0D072C66692000BE410A /* clone_bugaboo.xcdatamodeld */,
+				5D9F0D662C68F39400BE410A /* Launch Screen.storyboard */,
+				5D9F0D022C66692000BE410A /* Preview Content */,
+			);
+			path = clone_bugaboo;
+			sourceTree = "<group>";
+		};
+		5D9F0D022C66692000BE410A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D032C66692000BE410A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D9F0D112C66692000BE410A /* clone_bugabooTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D122C66692000BE410A /* clone_bugabooTests.swift */,
+			);
+			path = clone_bugabooTests;
+			sourceTree = "<group>";
+		};
+		5D9F0D1B2C66692000BE410A /* clone_bugabooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D1C2C66692000BE410A /* clone_bugabooUITests.swift */,
+				5D9F0D1E2C66692000BE410A /* clone_bugabooUITestsLaunchTests.swift */,
+			);
+			path = clone_bugabooUITests;
+			sourceTree = "<group>";
+		};
+		5D9F0D372C666C8F00BE410A /* home */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D2B2C666A8100BE410A /* HomeView.swift */,
+				5D9F0D352C666C4900BE410A /* SectionView.swift */,
+				5D9F0D332C666C2800BE410A /* CarouselView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		5D9F0D3C2C679A3D00BE410A /* Drama */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D2D2C666AED00BE410A /* DramaView.swift */,
+			);
+			path = Drama;
+			sourceTree = "<group>";
+		};
+		5D9F0D3D2C679C0500BE410A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D382C66736100BE410A /* MenuView.swift */,
+				5D9F0D542C67D2A700BE410A /* SettingsView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		5D9F0D3E2C67B78600BE410A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D3F2C67B7D300BE410A /* MovieTitleResponse.swift */,
+				5D9F0D522C67BF4800BE410A /* DramaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D9F0D412C67B86F00BE410A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D422C67B89800BE410A /* SearchViewModel.swift */,
+				5D9F0D5C2C68A24300BE410A /* DramaViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D9F0D442C67B8D700BE410A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D452C67B8ED00BE410A /* SearchManger.swift */,
+				5D9F0D5E2C68A31A00BE410A /* DramaManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5D9F0D472C67B90900BE410A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D482C67B95400BE410A /* SearchService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5D9F0D4A2C67B98B00BE410A /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D4B2C67B9A300BE410A /* ServiceManager.swift */,
+				5D9F0D4D2C67B9B900BE410A /* Constant.swift */,
+				5D9F0D4F2C67B9D400BE410A /* NetworkManager.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		5D9F0D512C67BACD00BE410A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D572C67D83600BE410A /* BugabooOriginal */,
+				5D9F0D562C67D81200BE410A /* Series */,
+				5D9F0D372C666C8F00BE410A /* home */,
+				5D9F0D3C2C679A3D00BE410A /* Drama */,
+				5D9F0D3D2C679C0500BE410A /* Menu */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5D9F0D562C67D81200BE410A /* Series */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D582C67D86300BE410A /* SeriesView.swift */,
+			);
+			path = Series;
+			sourceTree = "<group>";
+		};
+		5D9F0D572C67D83600BE410A /* BugabooOriginal */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D2F2C666B0900BE410A /* BugabooOriginalView.swift */,
+			);
+			path = BugabooOriginal;
+			sourceTree = "<group>";
+		};
+		5D9F0D602C68AA6C00BE410A /* General */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D612C68AA9300BE410A /* DramaDetailContentView.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		5D9F0D632C68ADB200BE410A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D9F0D642C68ADC400BE410A /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D9F0CF82C66691E00BE410A /* clone_bugaboo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D9F0D222C66692000BE410A /* Build configuration list for PBXNativeTarget "clone_bugaboo" */;
+			buildPhases = (
+				5D9F0CF52C66691E00BE410A /* Sources */,
+				5D9F0CF62C66691E00BE410A /* Frameworks */,
+				5D9F0CF72C66691E00BE410A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clone_bugaboo;
+			productName = clone_bugaboo;
+			productReference = 5D9F0CF92C66691E00BE410A /* clone_bugaboo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D9F0D0D2C66692000BE410A /* clone_bugabooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D9F0D252C66692000BE410A /* Build configuration list for PBXNativeTarget "clone_bugabooTests" */;
+			buildPhases = (
+				5D9F0D0A2C66692000BE410A /* Sources */,
+				5D9F0D0B2C66692000BE410A /* Frameworks */,
+				5D9F0D0C2C66692000BE410A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D9F0D102C66692000BE410A /* PBXTargetDependency */,
+			);
+			name = clone_bugabooTests;
+			productName = clone_bugabooTests;
+			productReference = 5D9F0D0E2C66692000BE410A /* clone_bugabooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D9F0D172C66692000BE410A /* clone_bugabooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D9F0D282C66692000BE410A /* Build configuration list for PBXNativeTarget "clone_bugabooUITests" */;
+			buildPhases = (
+				5D9F0D142C66692000BE410A /* Sources */,
+				5D9F0D152C66692000BE410A /* Frameworks */,
+				5D9F0D162C66692000BE410A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D9F0D1A2C66692000BE410A /* PBXTargetDependency */,
+			);
+			name = clone_bugabooUITests;
+			productName = clone_bugabooUITests;
+			productReference = 5D9F0D182C66692000BE410A /* clone_bugabooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D9F0CF12C66691E00BE410A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5D9F0CF82C66691E00BE410A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5D9F0D0D2C66692000BE410A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5D9F0CF82C66691E00BE410A;
+					};
+					5D9F0D172C66692000BE410A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5D9F0CF82C66691E00BE410A;
+					};
+				};
+			};
+			buildConfigurationList = 5D9F0CF42C66691E00BE410A /* Build configuration list for PBXProject "clone_bugaboo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D9F0CF02C66691E00BE410A;
+			productRefGroup = 5D9F0CFA2C66691E00BE410A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D9F0CF82C66691E00BE410A /* clone_bugaboo */,
+				5D9F0D0D2C66692000BE410A /* clone_bugabooTests */,
+				5D9F0D172C66692000BE410A /* clone_bugabooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D9F0CF72C66691E00BE410A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9F0D672C68F39400BE410A /* Launch Screen.storyboard in Resources */,
+				5D9F0D042C66692000BE410A /* Preview Assets.xcassets in Resources */,
+				5D9F0D012C66692000BE410A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9F0D0C2C66692000BE410A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9F0D162C66692000BE410A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D9F0CF52C66691E00BE410A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9F0D552C67D2A700BE410A /* SettingsView.swift in Sources */,
+				5D9F0D502C67B9D400BE410A /* NetworkManager.swift in Sources */,
+				5D9F0D302C666B0900BE410A /* BugabooOriginalView.swift in Sources */,
+				5D9F0D2E2C666AED00BE410A /* DramaView.swift in Sources */,
+				5D9F0D362C666C4900BE410A /* SectionView.swift in Sources */,
+				5D9F0D062C66692000BE410A /* Persistence.swift in Sources */,
+				5D9F0D092C66692000BE410A /* clone_bugaboo.xcdatamodeld in Sources */,
+				5D9F0D492C67B95400BE410A /* SearchService.swift in Sources */,
+				5D9F0D342C666C2800BE410A /* CarouselView.swift in Sources */,
+				5D9F0D462C67B8ED00BE410A /* SearchManger.swift in Sources */,
+				5D9F0D402C67B7D400BE410A /* MovieTitleResponse.swift in Sources */,
+				5D9F0D592C67D86300BE410A /* SeriesView.swift in Sources */,
+				5D9F0D322C666B2C00BE410A /* SearchView.swift in Sources */,
+				5D9F0D622C68AA9300BE410A /* DramaDetailContentView.swift in Sources */,
+				5D9F0D432C67B89800BE410A /* SearchViewModel.swift in Sources */,
+				5D9F0D4E2C67B9B900BE410A /* Constant.swift in Sources */,
+				5D9F0D532C67BF4800BE410A /* DramaModel.swift in Sources */,
+				5D9F0D3B2C6705F900BE410A /* HeaderView.swift in Sources */,
+				5D9F0D4C2C67B9A300BE410A /* ServiceManager.swift in Sources */,
+				5D9F0CFF2C66691E00BE410A /* ContentView.swift in Sources */,
+				5D9F0D2C2C666A8100BE410A /* HomeView.swift in Sources */,
+				5D9F0D652C68ADC400BE410A /* Extensions.swift in Sources */,
+				5D9F0D5D2C68A24300BE410A /* DramaViewModel.swift in Sources */,
+				5D9F0D5F2C68A31A00BE410A /* DramaManager.swift in Sources */,
+				5D9F0D392C66736100BE410A /* MenuView.swift in Sources */,
+				5D9F0CFD2C66691E00BE410A /* clone_bugabooApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9F0D0A2C66692000BE410A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9F0D132C66692000BE410A /* clone_bugabooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9F0D142C66692000BE410A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9F0D1F2C66692000BE410A /* clone_bugabooUITestsLaunchTests.swift in Sources */,
+				5D9F0D1D2C66692000BE410A /* clone_bugabooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D9F0D102C66692000BE410A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D9F0CF82C66691E00BE410A /* clone_bugaboo */;
+			targetProxy = 5D9F0D0F2C66692000BE410A /* PBXContainerItemProxy */;
+		};
+		5D9F0D1A2C66692000BE410A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D9F0CF82C66691E00BE410A /* clone_bugaboo */;
+			targetProxy = 5D9F0D192C66692000BE410A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D9F0D202C66692000BE410A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D9F0D212C66692000BE410A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D9F0D232C66692000BE410A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"clone_bugaboo/Preview Content\"";
+				DEVELOPMENT_TEAM = Z388WAMYJP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloneTest.ios.clone-bugaboo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D9F0D242C66692000BE410A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"clone_bugaboo/Preview Content\"";
+				DEVELOPMENT_TEAM = Z388WAMYJP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloneTest.ios.clone-bugaboo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D9F0D262C66692000BE410A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z388WAMYJP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloneTest.ios.clone-bugabooTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clone_bugaboo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/clone_bugaboo";
+			};
+			name = Debug;
+		};
+		5D9F0D272C66692000BE410A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z388WAMYJP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloneTest.ios.clone-bugabooTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clone_bugaboo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/clone_bugaboo";
+			};
+			name = Release;
+		};
+		5D9F0D292C66692000BE410A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z388WAMYJP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloneTest.ios.clone-bugabooUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = clone_bugaboo;
+			};
+			name = Debug;
+		};
+		5D9F0D2A2C66692000BE410A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z388WAMYJP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloneTest.ios.clone-bugabooUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = clone_bugaboo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D9F0CF42C66691E00BE410A /* Build configuration list for PBXProject "clone_bugaboo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9F0D202C66692000BE410A /* Debug */,
+				5D9F0D212C66692000BE410A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D9F0D222C66692000BE410A /* Build configuration list for PBXNativeTarget "clone_bugaboo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9F0D232C66692000BE410A /* Debug */,
+				5D9F0D242C66692000BE410A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D9F0D252C66692000BE410A /* Build configuration list for PBXNativeTarget "clone_bugabooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9F0D262C66692000BE410A /* Debug */,
+				5D9F0D272C66692000BE410A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D9F0D282C66692000BE410A /* Build configuration list for PBXNativeTarget "clone_bugabooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9F0D292C66692000BE410A /* Debug */,
+				5D9F0D2A2C66692000BE410A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5D9F0D072C66692000BE410A /* clone_bugaboo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5D9F0D082C66692000BE410A /* clone_bugaboo.xcdatamodel */,
+			);
+			currentVersion = 5D9F0D082C66692000BE410A /* clone_bugaboo.xcdatamodel */;
+			path = clone_bugaboo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5D9F0CF12C66691E00BE410A /* Project object */;
+}
